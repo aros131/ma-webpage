@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .search-bar {
+            margin: 20px auto;
+            text-align: center;
+        }
+        .search-bar input[type="text"] {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0078d7;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar button:hover {
+            background-color: #005bb5;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .trending-section {
+            margin-top: 30px;
+        }
+        .trending-section h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        .trending-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .trending-list li {
+            background-color: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .trending-list li a {
+            text-decoration: none;
+            color: #0078d7;
+            font-size: 18px;
+        }
+        .trending-list li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Product Review Platform</h1>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for products, brands, or categories...">
+        <button>Search</button>
+    </div>
+    <div class="container">
+        <div class="trending-section">
+            <h2>Trending Now</h2>
+            <ul class="trending-list">
+                <li><a href="#">Product A - Top Reviews This Week</a></li>
+                <li><a href="#">Brand X - Most Discussed</a></li>
+                <li><a href="#">Product B - Highest Rated</a></li>
+                <li><a href="#">Category Y - Trending Topics</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
